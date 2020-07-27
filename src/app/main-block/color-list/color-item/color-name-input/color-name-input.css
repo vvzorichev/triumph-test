@@ -1,0 +1,38 @@
+.ColorNameInput {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 60%;
+    background: none;
+    border: none;
+}
+
+.ColorNameInput-Text {
+    padding-left: 2%;
+    width: 80%;
+    border-radius: 8px;
+    background: none;
+    border: solid 1px #924c3f;
+    outline: none;
+    font-family: 'Rowdies', cursive;
+    font-size: 80%;
+    color: #8e97ba;
+    box-shadow: 0 0 10px #924c3f;
+}
+
+.ColorNameInput-AddColorButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    outline: none;
+    font-size: 60%;
+    width: 10%;
+    border: solid 2px #476641;
+    border-radius: 8px;
+    color: #476641;
+}
+
+.ColorNameInput-AddColorButton:hover {
+    background-color: rgba(71, 102, 65, 0.3);
+}

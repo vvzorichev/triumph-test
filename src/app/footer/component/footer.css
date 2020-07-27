@@ -1,0 +1,15 @@
+.Footer {
+    grid-row-start: -3;
+    grid-row-end: -2;
+    grid-column-start: 2;
+    grid-column-end: -2;
+    display: flex;
+    justify-content: center;
+    font-size: 40%;
+}
+
+@media (max-height: 600px) {
+    .Footer {
+        display: none;
+    }
+}

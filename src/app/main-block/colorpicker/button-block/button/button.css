@@ -1,0 +1,54 @@
+.Button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    outline: none;
+    font-size: 60%;
+    padding: 1%;
+    width: 100%;
+    border: solid 2px;
+    font-family: 'Rowdies', cursive;
+    border-radius: 10px;
+}
+
+.UndoButton {
+    border-color: #0a4a9a;
+    color: #0a4a9a;
+}
+
+.UndoButton:hover {
+    background-color: rgba(10, 74, 154, 0.3);
+}
+
+.UndoButton:focus {
+    box-shadow: 0 0 10px #0a4a9a;
+}
+
+.ChangeButton {
+    margin-left: 2%;
+    margin-right: 2%;
+    border-color: #924c3f;
+    color: #924c3f;
+}
+
+.ChangeButton:hover {
+    background-color: rgba(146, 76, 63, 0.3);
+}
+
+.ChangeButton:focus {
+    box-shadow: 0 0 10px #924c3f;
+}
+
+.NewButton {
+    border-color: #476641;
+    color: #476641;
+}
+
+.NewButton:hover {
+    background-color: rgba(71, 102, 65, 0.3);
+}
+
+.NewButton:focus {
+    box-shadow: 0 0 10px #476641;
+}

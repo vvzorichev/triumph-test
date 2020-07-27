@@ -1,0 +1,11 @@
+html, body, div  {
+    margin: 0;
+    height: 100%;
+}
+
+html, body {
+    background-color: #222;
+    color: #8e97ba;
+    font-family: 'Rowdies', cursive;
+    font-size: 40px;
+}

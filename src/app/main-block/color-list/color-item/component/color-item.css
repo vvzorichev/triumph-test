@@ -1,0 +1,37 @@
+.ColorItem {
+    height: 4%;
+    border: solid 2px #8e97ba;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    margin-right: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    font-size: 70%;
+    padding: 1%;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: rgba(142, 151, 186, 0.2);
+}
+
+.ColorItem-ColorViewer {
+    width: 8%;
+    border-radius: 8px;
+}
+
+.ColorItem-ColorName {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    border-radius: 8px;
+}
+
+@media (max-height: 600px) {
+    .ColorItem{
+        height: 6%;
+        font-size: 40%;
+    }
+}
