@@ -6,7 +6,7 @@ const colorListLoaded = (colors) => {
 };
 
 const getColorList = () => (dispatch) => {
-    const colors = JSON.parse(localStorage.getItem('colors'));
+    const colors = JSON.parse(localStorage.getItem('colors')) || [];
     dispatch(colorListLoaded(colors));
 };
 
